@@ -1,0 +1,106 @@
+.btsobremim {
+    margin-top: 12px; /* adicione essa linha */
+    margin-left: -1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #d5e6ff;
+    border: solid #05152e;
+    background-color: #05152e;
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btsobremim:hover {
+    background-color: #05152e;
+}
+
+/* Mantém a cor azul escura no menu mobile */
+.minha-navbar,
+.navbar-collapse,
+.navbar-nav {
+  background-color: #0b1f3a !important;
+}
+
+/* Deixa os links brancos para boa leitura no fundo escuro */
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/* Corrige o ícone do botão hamburguer para ser visível no fundo escuro */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+/* Fundo azul escuro em qualquer largura da tela */
+.minha-navbar {
+  background-color: #0b1f3a !important;
+}
+
+/* Também força o container da navbar a manter o fundo */
+.minha-navbar .container-fluid {
+  background-color: #0b1f3a !important;
+}
+
+
+.card {
+    background-color: #05152e; /* fundo escuro */
+    color: #d5e6ff; /* texto claro */
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* sombra leve */
+    padding: 20px;
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d5e6ff;
+}
+
+.card .card-text {
+    font-size: 14px;
+    color: #d5e6ff;
+    line-height: 1.6;
+}
+
+.card {
+    margin-top: 70px;
+    margin-left: 66px;
+    width: 500px;
+}
+
+.btprojetos {
+    margin-top: 12px; /* adicione essa linha */
+    margin-left: -1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #05152e;
+    border: solid #d5e6ff;
+    background-color: #d5e6ff;
+    padding: 5px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.btprojetos:hover {
+    background-color: #d5e6ff;
+}
+
+@media (max-width: 768px) {
+  .card-texto {
+    max-width: 100% !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
